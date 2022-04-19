@@ -1,0 +1,26 @@
+name: handycontrol_example
+description: Demonstrates how to use the handycontrol plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  handycontrol:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/LeftMainContent/
